@@ -648,3 +648,15 @@ footer h2{
         height: 88%;
       }
   }
+
+  @media (max-width: 400px){
+    .single-image{
+      max-width: 88%;
+    }
+    .single-image .big img{
+      max-width: 100%;
+    }
+    .info{
+      max-width: 88%;
+    }
+  }
