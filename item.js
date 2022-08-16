@@ -17,14 +17,14 @@ var mainimg= document.querySelectorAll('.big-img');
 var smallimg=document.querySelectorAll('.small-img');
 
 smallimg[0].onclick=function(){
-    mainimg.src=smallimg[0].src;
+    mainimg[0].src=smallimg[0].src;
 }
 smallimg[1].onclick=function(){
-    mainimg.src=smallimg[1].src;
+    mainimg[0].src=smallimg[1].src;
 }
 smallimg[2].onclick=function(){
-    mainimg.src=smallimg[2].src;
+    mainimg[0].src=smallimg[2].src;
 }
 smallimg[3].onclick=function(){
-    mainimg.src=smallimg[3].src;
+    mainimg[0].src=smallimg[3].src;
 }

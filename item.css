@@ -6,6 +6,7 @@
   }
   body{
     background-color: rgb(249, 249, 249);
+    font-family: 'Montserrat', sans-serif;
   
   }
   
@@ -254,7 +255,12 @@
     margin: 1em 0em 1em 1em;
     padding: 2em;
   }
+  .big{
+    max-width: 100%;
+    object-fit: contain;
+  }
   .single-image .big-img{
+    max-width: 100%;
     padding-top: 1em;
   }
   .other-image{
