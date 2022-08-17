@@ -318,10 +318,11 @@
     justify-content: flex-end;
     padding: .5em;
     background-color: white;
+    padding-bottom: 2em;
   }
   .buy button{
-    font-size: 1.2em;
-    padding: .2em;
+    font-size: 1.5em;
+    padding: .5em;
     background-color: rgb(119, 84, 187);
     border: none;
   }

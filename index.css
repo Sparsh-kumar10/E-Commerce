@@ -309,7 +309,7 @@ main{
   align-items: center;
   overflow: hidden;
 }
-
+/* 
 .top-brand{
   width: 100%;
   padding: .5em 0em;
@@ -340,6 +340,29 @@ main{
 }
 .brand li img{
   max-width: 100%;
+} */
+
+.top-brand{
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5em;
+  margin: 2em 0em;
+  /* border: 1px solid black; */
+}
+.brand{
+  list-style: none;
+  /* border: 1px solid black; */
+  max-width: 100%;
+  overflow-x: auto;
+  display: flex;
+  gap: 2em;
+  padding: 0em 1em;
+}
+.brand::-webkit-scrollbar{
+  width: 0;
 }
 
 
@@ -787,7 +810,7 @@ footer h2{
   }
   
   .brand{
-    grid-auto-columns: 6em;
+    max-width: 84%;
   }
 }
 
